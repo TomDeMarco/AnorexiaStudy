@@ -62,7 +62,7 @@ qqline(Gains.Fam)
 qqnorm(Gains.Cont, main = "Control")
 qqline(Gains.Cont)
 
-#After creating a qq plot for both the control and Family group, they both to be relatively normal with a few points deviating from the straight diagonal line, but for the most part they retain a normal distribution 
+#After creating a qq plot for both the control and family group, they both to be relatively normal with a few points deviating from the straight diagonal line, but for the most part they retain a normal distribution 
 
 #b)
 var.test(Gains.Cont, Gains.Fam)
